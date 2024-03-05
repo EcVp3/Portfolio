@@ -1,0 +1,59 @@
+body {
+    background-color: #1EA1A1;
+    text-align: center;
+    margin: 0px;
+}
+
+#navbar {
+    background: black;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    text-align: left;
+    font-family: "UniSansW01-Heavy";
+}
+
+.nav-menu {
+    float: left;
+    color: whitesmoke;
+    font-size: 45px;
+}
+
+.nav-list {
+    line-height: 60px;
+    margin: 0 5px;
+    float: right;
+    color: orange;
+}
+
+.nav_button {
+    background-color: black;
+    border: 0px;
+    border-radius: 25px;
+}
+
+#navbar ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.nav_button:hover {
+    animation-name: hovering;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes hovering{
+    90% {
+      background-color: #04D1C3;
+    }
+    100% {
+      background-color: #04D1C3;
+    }
+  }
