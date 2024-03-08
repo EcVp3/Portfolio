@@ -37,7 +37,7 @@ body {
     display: inline-block;
 }
 
-nav ul li a{
+nav ul li a {
     color: white;
     font-size: 30px;
     text-decoration: none;
@@ -56,4 +56,20 @@ nav ul li a{
     100% {
       background-color: #04D1C3;
     }
+  }
+
+
+  .selfPic {
+    margin-top: 80px;
+    width: auto;
+    height: auto;
+  }
+
+  .picture {
+    border-radius: 100%;
+    float: left;
+  }
+
+  .text-box {
+    font-size: 25px;
   }
